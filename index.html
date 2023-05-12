@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bap er Bank</title>
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
@@ -21,12 +22,19 @@
                     <h3 class="text-2xl font-semibold">Please Log in</h3>
                     <input id="Email" class="mt-2 p-1 rounded-md " type="text" placeholder="Enter Email">
                     <input id="password" class="mt-2 p-1 rounded-md " type="password" placeholder="Enter Password">
-                    <button id="submit-btn" disabled class="font-bold text-white bg-blue-400 px-3 py-1 mt-2 rounded-md " type="submit">Submit</button>
+
+                    <button  id="submit-btn" disabled class="btn btn-primary mt-2 bg-blue-500"
+                        type="submit">Submit</button>
+                    <button  id="submit-btn2"  class="btn btn-primary mt-2 bg-blue-500"
+                        type="submit">Submit</button>
+                        
+
                 </div>
             </div>
         </form>
-
+        <!-- font-bold text-white bg-blue-400 px-3 py-1 mt-2 rounded-md -->
     </main>
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
     <script src="bankjs/bank.js"></script>
     <script src="bankjs/page.js"></script>
 </body>
