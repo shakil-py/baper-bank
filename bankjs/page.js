@@ -30,16 +30,18 @@
 // }
 
 document.getElementById("submit-btn").addEventListener("click", function () {
-    const email_field = document.getElementById("Email")
+    const email_field = document.getElementById("email")
     const email = email_field.value
     const password_field = document.getElementById("password")
     const password = password_field.value
 
     if (email === "shakil@gmail.com" && password === "123") {
-        window.location.href = "bank.html"
+        window.location.href = "http://127.0.0.1:5500/bank.html"
+        console.log("pass frist conditions")
     }
     else {
         alert("You are not valid user")
     }
+    // window.location.href = "F:\jnkara Projects\baper-bank\bank.html"
 
 })
