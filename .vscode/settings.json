@@ -1,5 +1,8 @@
 {
     "auto-close-tag.SublimeText3Mode": true,
     "files.autoSave": "afterDelay",
-    "files.autoSaveDelay": 0
+    "files.autoSaveDelay": 0,
+    "editor.wordWrap": "on",
+    "editor.formatOnSave": true,
+    "window.autoDetectColorScheme": false
 }
