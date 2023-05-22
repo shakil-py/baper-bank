@@ -11,6 +11,10 @@ document.getElementById("withdraw").addEventListener("click", function () {
     document.getElementById("withdraw-balance").innerText = parseFloat(withdraw_amount) + parseFloat(document.getElementById("withdraw-balance").innerText)
 
     document.getElementById("balance-amount").innerText = (parseInt(balance) - withdraw_amount)
+    const value = get_value_byid("withdraw-amount")
+    console.log(value)
+    const balance_value = get_tex_value_byid("withdraw-balance")
+    console.log(balance_value)
 
 })
 document.getElementById("diposit").addEventListener("click", function () {
