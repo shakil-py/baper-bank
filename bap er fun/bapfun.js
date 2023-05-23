@@ -45,5 +45,5 @@ document.getElementById("diposit").addEventListener("click", function () {
     const diposit_balance_value = get_tex_value_byid("diposit-balance")
     const balance_text_value = get_tex_value_byid("balance-amount")
     set_text_value("diposit-balance", input_value, diposit_balance_value)
-    set_balance_value("blance-amount", input_value, balance_text_value, "diposit")
+    set_balance_value("balance-amount", input_value, balance_text_value, "diposit")
 })
