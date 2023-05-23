@@ -41,7 +41,7 @@ document.getElementById("withdraw").addEventListener("click", function () {
 
 })
 document.getElementById("diposit").addEventListener("click", function () {
-    const input_value = get_tex_value_byid("diposit-amount")
+    const input_value = get_value_byid("diposit-amount")
     const diposit_balance_value = get_tex_value_byid("diposit-balance")
     const balance_text_value = get_tex_value_byid("balance-amount")
     set_text_value("diposit-balance", input_value, diposit_balance_value)
