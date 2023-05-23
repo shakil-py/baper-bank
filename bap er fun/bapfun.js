@@ -18,7 +18,7 @@ function set_text_value(text_value_id, input_value, balance_value) {
 function set_balance_value(balance_text_id, input_value, balance_text_value, compare_id) {
     const set_balance_field = document.getElementById(balance_text_id)
     const compare = document.getElementById(compare_id).innerText
-    const value=balance_text_value+input_value
+    const value = balance_text_value + input_value
 
     if (compare === "Withdraw") {
         set_balance_field.innerText = balance_text_value - input_value
